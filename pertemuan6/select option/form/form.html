@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="http://handleform/process" method="post">
+         <fieldset>
+            <legend>Biodata</legend>
+                Nama :<input type="text"><br>
+                Tempat_lahir :<input type="text"><br>
+                Tanggal_lahir :<input type="date"><br>
+                Alamat :<input type="text"><br>
+                Password :<input type="number"><br>
+                Pasfoto :<input type="file"><br>     
+         </fieldset>
+
+         <fieldset>
+            <legend>Hobi</legend>
+            <input type="radio" name="hobi" id="memancing" value="memancing"><label for="memancing"></label>memancing</label><br>
+            <input type="radio" name="hobi" id="berenang" value="berenang"><label for="berenang"></label>berenang</label><br>
+            <input type="radio" name="hobi" id="tidur" value="tidur"><label for="tidur"></label>tidur</label><br>
+           
+
+         <fieldset>
+            <legend>makanan_favorit</legend>
+            <input type="checkbox" name="makanan" id="sate"> <label for="sate">sate</label><br>
+            <input type="checkbox" name="makanan" id="nasgor"> <label for="nasgor">nasgor</label><br>
+            <input type="checkbox" name="makanan" id="bakso"> <label for="bakso">bakso</label><br>
+            <input type="checkbox" name="makanan" id="mie_ayam"> <label for="mie_ayam">mie_ayam</label><br>
+         <fieldset>
+            <legend>Pekerjaan Orang Tua</legend>
+            <select name="Pekerjaanortu" id="">
+                <option value="petani"></option>
+                <option value="pekebun"></option>
+                <option value="guru"></option>
+                <option value="pegawai swasta"></option>
+         </fieldset>
+
+         <textarea name="keterangan" id="" cols="30" rown="10"><</textarea><br>
+
+         <input type="submit" value="simpan">
+    </form>
+      
+</body>
+</html>
