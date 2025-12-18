@@ -1,18 +1,18 @@
 .topbar{
-        position: fixed;
-        top: 0;
-        height: 64px;
-        background-color: rgba(17, 147, 104, 0.686);
-        width: calc(100% - 250px);
+    position: fixed;
+    top: 0;
+    height: 64px;
+    background-color: rgba(39, 109, 171, 0.578);
+    width: calc(100% - 250px);
 }
-
-.user-menu, .user-menu > img, .user-menu > span{
+.user-menu,
+.user-menu > img,
+.user-menu > span{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
-
-.user-menu > {
+.user-menu {
     right: 20px;
     height: 60px;
     cursor: pointer;
@@ -22,27 +22,23 @@
 .user-menu > span{
     left: 40px;
 }
-
-.user-menu-box{
+.user-menu-box {
     position: absolute;
     top: 60px;
-    background-color: rgb(144, 144, 173);
+    background-color: rgb(46, 43, 160, 0.801);
     min-width: 150px;
     padding: 5px;
     border-radius: 10px;
-    right: -200px;
+    right: -250px;
 }
-
-.user-menu-box a{
+.user-menu-box a {
     display: block;
     padding: 10px 20px;
     border-radius: 10px;
 }
-
-.user-menu-box a:hover{
-    background-color: rgb(173, 173, 173);
+.user-menu-box a:hover {
+    background-color: #066eaa;
 }
-
-.user-menu:hover > .user-menu-box{
+.user-menu:hover > .user-menu-box {
     right: 0;
 }
